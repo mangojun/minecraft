@@ -1,0 +1,2 @@
+execute as @a[scores={click=1..} ,nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick", tag:{display:{Name:'{"text":"가짜 블록", "italic":False}'}}}}] at @s align xyz run summon minecraft:falling_block ~0.5 ~ ~0.5 {NoGravity:true, Time:-2100000000, BlockState:{Name:"minecraft:grass_block"}}
+execute as @a[scores={click=1..} ,nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick", tag:{display:{Name:'{"text":"가짜 블록", "italic":False}'}}}}] at @s run scoreboard players reset @s click

@@ -1,0 +1,3 @@
+execute as @a[scores={click=1..} ,nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick", tag:{display:{Name:'{"text":"모래 함정", "italic":False}'}}}}] at @s align xyz run summon minecraft:falling_block ~0.5 ~ ~0.5 {NoGravity:true, Time:-2100000000}
+execute as @a[scores={click=1..} ,nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick", tag:{display:{Name:'{"text":"모래 함정", "italic":False}'}}}}] at @s align xyz run setblock ~ ~ ~ minecraft:cobweb
+execute as @a[scores={click=1..} ,nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick", tag:{display:{Name:'{"text":"모래 함정", "italic":False}'}}}}] at @s run scoreboard players reset @s click

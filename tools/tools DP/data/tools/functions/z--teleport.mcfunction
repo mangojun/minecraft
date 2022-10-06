@@ -1,0 +1,2 @@
+execute at @e[type=minecraft:fishing_bobber, limit=1, sort=nearest, nbt={OnGround:true}] as @a[limit=1, sort=nearest] align xyz run tp @s ~0.5 ~ ~0.5
+kill @e[type=minecraft:fishing_bobber, limit=1, nbt={OnGround:true}]
