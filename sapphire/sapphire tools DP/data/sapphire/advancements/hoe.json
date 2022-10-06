@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "SapphireHoe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "sapphire:hoe"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "SapphireHoe"
+        ]
+    ],
+    "rewards": {
+        "function": "sapphire:hoe"
+    }
+}

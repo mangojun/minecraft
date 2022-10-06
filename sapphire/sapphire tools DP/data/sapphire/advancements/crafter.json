@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "SapphireCrafter": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "sapphire:crafter"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "SapphireCrafter"
+        ]
+    ],
+    "rewards": {
+        "function": "sapphire:crafter"
+    }
+}

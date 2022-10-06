@@ -1,0 +1,3 @@
+summon minecraft:item ~ ~0.5 ~ {Item:{id:"minecraft:glow_item_frame", Count:1, tag:{display:{Name:'{"text":"사파이어 블록", "italic":False}'}, CustomModelData:1, EntityTag:{Silent:true, Tags:["SapphireBlock"], Item:{id:"minecraft:glow_item_frame", Count:1, tag:{CustomModelData:1}}, Invulnerable:true, Invisible:true, Fixed:true}}}}
+kill @e[type=item, nbt={Item:{id:"minecraft:lapis_block"}}, distance=0..2, sort=nearest, limit=1]
+kill @s

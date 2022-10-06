@@ -1,0 +1,16 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/phantom_membrane"
+  },
+  "overrides": [
+    {
+      "predicate": {"custom_model_data": 1},
+      "model": "custom/sapphire"
+    },
+    {
+      "predicate": {"custom_model_data": 2},
+      "model": "custom/sapphire_crafter_gui"
+    }
+  ]
+}

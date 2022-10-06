@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "SapphireShovel": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "sapphire:shovel"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "SapphireShovel"
+        ]
+    ],
+    "rewards": {
+        "function": "sapphire:shovel"
+    }
+}

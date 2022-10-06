@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "SapphirePickaxe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "sapphire:pickaxe"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "SapphirePickaxe"
+        ]
+    ],
+    "rewards": {
+        "function": "sapphire:pickaxe"
+    }
+}

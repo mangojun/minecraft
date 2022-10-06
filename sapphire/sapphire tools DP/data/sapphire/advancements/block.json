@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "SapphireBlock": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "sapphire:block"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "SapphireBlock"
+        ]
+    ],
+    "rewards": {
+        "function": "sapphire:block"
+    }
+}

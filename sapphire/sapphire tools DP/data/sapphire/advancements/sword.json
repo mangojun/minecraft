@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "SapphireSword": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "sapphire:sword"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "SapphireSword"
+        ]
+    ],
+    "rewards": {
+        "function": "sapphire:sword"
+    }
+}
